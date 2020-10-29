@@ -1,11 +1,66 @@
 /* utility class */
 
+.m_t_5 {
+  margin-top: 5px;
+}
 
+.m_t_b_50 {
+  margin: 50px 0;
+}
+
+.p_t_b_20 {
+  padding: 20px 0;
+}
+
+.p_b_20 {
+  padding-bottom: 20px;
+}
+
+
+.p_l_r_20 {
+  padding: 0 20px;
+}
+
+.p_b_none {
+  padding-bottom: none;
+}
+
+.bg_white {
+  background-color: white;
+}
+.text_c {
+  text-align: center;
+}
+
+.text_r {
+  text-align: right;
+}
+
+.text_l {
+  text-align: left;
+}
 
 /* /utility class */
 
 
 /* header */
+
+header {
+  background-image: url('../img/header/bg-home.svg');
+  background-size: cover;
+}
+
+/* header_top */
+.navbar img {
+  width: 50%;
+}
+
+.navbar button {
+  vertical-align:
+}
+
+
+/* /header_top */
 
 
 
