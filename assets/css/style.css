@@ -4,11 +4,23 @@
   margin-top: 5px;
 }
 
+.m_b_20 {
+  margin-bottom: 20px;
+}
+
 .m_t_b_50 {
   margin: 50px 0;
 }
 
+.p_b_none {
+  padding-bottom: none;
+}
+
 .p_t_b_20 {
+  padding: 20px 0;
+}
+
+.p_t_b_50 {
   padding: 20px 0;
 }
 
@@ -16,18 +28,23 @@
   padding-bottom: 20px;
 }
 
+.p_b_50 {
+  padding-bottom: 40px;
+}
 
 .p_l_r_20 {
   padding: 0 20px;
 }
 
-.p_b_none {
-  padding-bottom: none;
-}
 
 .bg_white {
   background-color: white;
 }
+
+.bg_lightgrey {
+  background-color: rgb(243, 245, 249);
+}
+
 .text_c {
   text-align: center;
 }
