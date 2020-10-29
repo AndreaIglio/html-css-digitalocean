@@ -1,7 +1,15 @@
 /* utility class */
 
+.m_none {
+  margin: 0;
+}
+
 .m_t_5 {
   margin-top: 5px;
+}
+
+.m_l_5 {
+  margin-left: 5px;
 }
 
 .m_b_20 {
@@ -14,6 +22,10 @@
 
 .p_b_none {
   padding-bottom: none;
+}
+
+.p_none {
+  padding: 0;
 }
 
 .p_t_b_20 {
@@ -43,6 +55,10 @@
 
 .bg_lightgrey {
   background-color: rgb(243, 245, 249);
+}
+
+.bg_blue {
+  background-color: lightblue;
 }
 
 .text_c {
@@ -89,7 +105,32 @@ header {
 
 /* main */
 
+/* deploy */
 
+.card_carousel img {
+  width: 100%;
+}
+
+.card_carousel::after {
+
+}
+
+/* /deploy */
+
+
+/* service */
+
+.card_internet_test {
+  border-bottom: 1px solid grey;
+  margin:5px;
+}
+
+.card_internet_test p{
+   margin: 0;
+}
+
+
+/* /service */
 
 /* /main */
 
