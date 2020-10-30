@@ -48,7 +48,7 @@ body {
 }
 
 .p_b_50 {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .p_l_r_20 {
@@ -74,6 +74,14 @@ body {
 
 .bg_blue {
   background-color: lightblue;
+}
+
+.bg_darkblue {
+  background-color: rgb(1, 14, 40);
+}
+
+.text_white {
+  color: white;
 }
 
 .text_c {
@@ -179,4 +187,19 @@ header {
 
 /* /main */
 /* footer */
+footer li {
+  list-style: none;
+}
+
+
+footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.followers a > i{
+  color:grey;
+  font-size: 1.5em;
+  padding: 0 5px;
+}
 /* footer */
