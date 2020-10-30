@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 3.8em;
+}
+
 /* utility class */
 .m_none {
   margin: 0;
@@ -76,6 +80,11 @@ body {
   background-color: lightblue;
 }
 
+.text_blue {
+  color: #337ab7;
+}
+
+
 .bg_darkblue {
   background-color: rgb(1, 14, 40);
 }
@@ -95,6 +104,11 @@ body {
 .text_l {
   text-align: left;
 }
+
+.f_size_22 {
+  font-size: 22px;
+}
+
 
 /* /utility class */
 /* header */
@@ -128,6 +142,28 @@ header {
 }
 
 /* /header_top */
+
+/* jumbotron */
+
+
+.card_header {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttons {
+  position: relative;
+}
+
+.buttons img {
+  position: absolute;
+  left: 1%;
+  width: 20px;
+}
+
+/* /jumbotron */
+
+
 /* /header */
 /* main */
 /* deploy */
