@@ -1,4 +1,12 @@
-@media all and (max-width:768px) {}
+@media all and (max-width:768px) {
+  .card_carousel:after {
+    display: none;
+  }
+
+  .card_carousel:before {
+    display: none;
+  }
+}
 
 @media all and (min-width: 769px) and (max-width: 991px) {
   .navbar-header {
@@ -31,6 +39,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+
+  /* help */
+
+
+  /* help */
 }
 
 @media all and (min-width: 992px) and (max-width: 1200px) {

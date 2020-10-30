@@ -7,7 +7,7 @@ h1 {
 }
 
 h4 {
-  color:#090d4f;
+  color: #090d4f;
 }
 
 p {
@@ -99,7 +99,6 @@ a:hover {
   padding-right: 20px;
 }
 
-
 .p_l_20 {
   padding-left: 40px;
 }
@@ -121,7 +120,7 @@ a:hover {
 }
 
 .text_darkblue {
-  color:#090d4f;
+  color: #090d4f;
 }
 
 .bg_darkblue {
@@ -147,7 +146,6 @@ a:hover {
 .f_size_22 {
   font-size: 22px;
 }
-
 
 /* /utility class */
 /* header */
@@ -175,16 +173,16 @@ header {
   border=color: #286090;
 }
 
-
 .navbar a {
   text-decoration: none;
 }
 
+#header_top li>a:hover {
+  color: #286090;
+}
+
 /* /header_top */
-
 /* jumbotron */
-
-
 .card_header {
   padding: 20px;
   border-radius: 10px;
@@ -201,13 +199,9 @@ header {
 }
 
 /* /jumbotron */
-
-
 /* /header */
 /* main */
-
 /* deploy */
-
 .deploy_menu ul {
   list-style: none;
   border-left: 1px solid grey;
@@ -219,37 +213,49 @@ header {
   padding: 10px 0;
 }
 
-
 .deploy_card {
   padding-right: 40px;
 }
 
 /* /deploy */
-
-
 /* first_carousel */
 
-.card_carousel img {
-  width: 100%;
+.card_carousel {
+  height: 100%;
+  position: relative;
 }
 
-.card_carousel::after {}
+.card_carousel img {
+  width: 70%;
+}
+
+
+.card_carousel:after {
+  font-weight: 900;
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  -webkit-font-smoothing: antialiased;
+  font-size: 40px;
+  padding-left: 40px;
+}
+
+.card_carousel:before {
+  font-weight: 900;
+  content: '\f053';
+  font-family: 'Font Awesome 5 Free';
+  -webkit-font-smoothing: antialiased;
+  font-size: 40px;
+  padding-right: 40px;
+}
 
 /* /first_carousel */
-
-
 /* features */
-
-
 /* /features */
-
-
 /* service */
 .card_internet_test {
   width: 100%;
   border-bottom: 1px solid grey;
   margin: 10px 0;
-
 }
 
 .card_internet_test p {
@@ -263,22 +269,23 @@ header {
 }
 
 /* /service */
-
-
-
 /* second_carousel */
-
 #second_carousel .card_carousel {
-  padding: 40px;
+
 }
 
 #second_carousel .card_carousel img {
-  width: 30%;
+  width: 50%;
 }
 
+
+.second_carousel_card {
+  display: inline-block;
+  padding: 40px;
+}
+
+
 /* /second_carousel */
-
-
 /* get_started */
 #get_started {
   background-image: url('../img/header/bg-home.svg');
@@ -291,13 +298,15 @@ header {
 }
 
 /* /get_started */
-
 /* /main */
 /* footer */
+footer {
+  position: relative;
+}
+
 footer li {
   list-style: none;
 }
-
 
 footer a {
   color: grey;
@@ -308,13 +317,29 @@ footer a:hover {
   text-decoration: none;
 }
 
-.followers a > i{
-  color:grey;
+.followers a>i {
+  color: grey;
   font-size: 1.5em;
   padding: 0 5px;
 }
 
 footer h4 {
   color: white;
+}
+
+.help {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+}
+
+.help_text {
+  width: 30px;
+  display: inline;
+  margin:  0 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: white;
 }
 /* footer */
