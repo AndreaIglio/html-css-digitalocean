@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* utility class */
 .m_none {
   margin: 0;
@@ -130,7 +134,8 @@ header {
 .card_internet_test {
   width: 100%;
   border-bottom: 1px solid grey;
-  margin: 5px 0;
+  margin: 10px 0;
+
 }
 
 .card_internet_test p {
@@ -143,6 +148,35 @@ header {
 }
 
 /* /service */
+
+
+
+/* second_carousel */
+
+#second_carousel .card_carousel {
+  padding: 40px;
+}
+
+#second_carousel .card_carousel img {
+  width: 30%;
+}
+
+/* /second_carousel */
+
+
+/* get_started */
+#get_started {
+  background-image: url('../img/header/bg-home.svg');
+  background-color: rgb(0, 105, 255);
+  background-size: cover;
+}
+
+#get_started h2 {
+  color: white;
+}
+
+/* /get_started */
+
 /* /main */
 /* footer */
 /* footer */
