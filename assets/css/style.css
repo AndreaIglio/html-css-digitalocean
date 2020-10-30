@@ -6,6 +6,10 @@ h1 {
   font-size: 3.8em;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* utility class */
 .m_none {
   margin: 0;
