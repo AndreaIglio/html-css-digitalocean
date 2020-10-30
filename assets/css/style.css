@@ -22,6 +22,10 @@ a:hover {
   font-size: 0.8em;
 }
 
+[class*="col-"] {
+  padding: 10px 15px;
+}
+
 /* utility class */
 .m_none {
   margin: 0;
