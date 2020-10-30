@@ -51,6 +51,15 @@
   padding: 0 20px;
 }
 
+.p_r_20 {
+  padding-right: 20px;
+}
+
+
+.p_l_20 {
+  padding-left: 40px;
+}
+
 .bg_white {
   background-color: white;
 }
@@ -119,12 +128,18 @@ header {
 /* /deploy */
 /* service */
 .card_internet_test {
+  width: 100%;
   border-bottom: 1px solid grey;
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .card_internet_test p {
   margin: 0;
+}
+
+.card_internet_test a {
+  text-align: right;
+  text-decoration: none;
 }
 
 /* /service */
