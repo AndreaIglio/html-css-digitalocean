@@ -235,7 +235,7 @@ header {
   content: '\f054';
   font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 40px;
 }
 
@@ -244,7 +244,7 @@ header {
   content: '\f053';
   font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
-  font-size: 40px;
+  font-size: 30px;
   padding-right: 40px;
 }
 
@@ -275,11 +275,14 @@ header {
 }
 
 #second_carousel .card_carousel img {
-  width: 50%;
+  width: 60%;
+
 }
 
 
 .second_carousel_card {
+  width: 70%;
+  vertical-align: middle;
   display: inline-block;
   padding: 40px;
 }
