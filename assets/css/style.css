@@ -1,5 +1,4 @@
 /* utility class */
-
 .m_none {
   margin: 0;
 }
@@ -28,6 +27,10 @@
   padding: 0;
 }
 
+.p_t_5 {
+  padding-top: 5px;
+}
+
 .p_t_b_20 {
   padding: 20px 0;
 }
@@ -47,7 +50,6 @@
 .p_l_r_20 {
   padding: 0 20px;
 }
-
 
 .bg_white {
   background-color: white;
@@ -74,10 +76,7 @@
 }
 
 /* /utility class */
-
-
 /* header */
-
 header {
   background-image: url('../img/header/bg-home.svg');
   background-size: cover;
@@ -88,54 +87,47 @@ header {
   width: 50%;
 }
 
+.navbar ul {
+  padding-top: 7px;
+}
+
 .navbar button {
-  vertical-align:
+  margin-top: 8px;
+}
+
+.navbar button:hover, .navbar button:hover a {
+  background-color: #286090;
+  color: white;
+  border=color: #286090;
 }
 
 
+.navbar a {
+  text-decoration: none;
+}
+
 /* /header_top */
-
-
-
 /* /header */
-
-
-
-
-
 /* main */
-
 /* deploy */
-
 .card_carousel img {
   width: 100%;
 }
 
-.card_carousel::after {
-
-}
+.card_carousel::after {}
 
 /* /deploy */
-
-
 /* service */
-
 .card_internet_test {
   border-bottom: 1px solid grey;
-  margin:5px;
+  margin: 5px;
 }
 
-.card_internet_test p{
-   margin: 0;
+.card_internet_test p {
+  margin: 0;
 }
-
 
 /* /service */
-
 /* /main */
-
-
-
 /* footer */
-
 /* footer */
