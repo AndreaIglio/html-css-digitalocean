@@ -27,6 +27,7 @@ a:hover {
 }
 
 /* utility class */
+
 .m_none {
   margin: 0;
 }
@@ -307,6 +308,10 @@ footer {
   position: relative;
 }
 
+#footer_top {
+  position: relative;
+}
+
 footer li {
   list-style: none;
 }
@@ -331,6 +336,24 @@ footer h4 {
 }
 
 .help {
+  position: absolute;
+  bottom: 30px;
+  margin: 0 20px;
+
+}
+
+.help_img {
+  margin: 20px 0;
+}
+
+.help_text {
+  border:1px solid white;
+  width: 350px;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+/* .help {
   position: absolute;
   right: 50px;
   bottom: 30px;

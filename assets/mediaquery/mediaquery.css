@@ -80,4 +80,17 @@
   }
 }
 
-@media all and (min-width: 1201px) {}
+@media all and (min-width: 1201px) {
+  .help {
+    right: 0;
+  }
+
+  .help img {
+    float: right;
+  }
+
+  .help_text {
+    display: inline-block;
+    margin: 25px 20px;
+  }
+}
