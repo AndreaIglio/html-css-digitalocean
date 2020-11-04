@@ -28,6 +28,12 @@ a:hover {
 
 /* utility class */
 
+
+.container-flex {
+  display: flex;
+  }
+
+
 .m_none {
   margin: 0;
 }
@@ -202,6 +208,17 @@ header {
 /* /jumbotron */
 /* /header */
 /* main */
+
+/* logo */
+
+.logo_container {
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* logo */
+
 /* deploy */
 .deploy_menu ul {
   list-style: none;
